@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: antiquewhite;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color: #bc6c25;
+  display: flex;
+  justify-content: center;
+  padding-block: 20px;
+}
+
+.inputTask{
+  height: 60px;
+  width: 550px;
+  background-color: #bc6c25;
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+.click input{
+  height: inherit;
+  width: 100%;
+  background-color: #000814;
+  outline: none;
+  font-size: 20px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  padding-inline: 10px;
+}
+
+.send{
+  height: inherit;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  background-color: #06d6a0;
+  border-radius: 0 10px 10px 0;
+  font-size: 20px;
+  justify-content: center;
+  border: none;
+}
+
+.taskHolder{
+  height: 30rem;
+  width: 100%;
+  background: linear-gradient(#000814,#000);
+  border-radius:10px;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction:column ;
+  padding-block:5px ;
+  align-items: center;
+  }
+
+.taskList{
+  height: 2.5rem;
+  width: 95%;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  margin-block: 5px;
+  justify-content: space-around;
+  border: 2px solid palegoldenrod;
+  border-radius: 9px;
+
+ }
+
+  .click{
+    height: inherit;
+    width: 100%;
+    background-color:#bc6c25;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .work{
+    height:25px;
+    width: 25px;
+    margin-right: 15px;
+   
+   }
+
+  .task{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left:10px ;
+    border: none;
+    font-size: 20px;
+    background-color: #000814;
+    border-radius:0 9px 9px 0;
+
+ }
+
+
+.work:checked + .task{
+  background-color: #f07167;
+}
